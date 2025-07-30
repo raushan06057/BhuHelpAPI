@@ -5,3 +5,9 @@
 /.vs
 /BhuHelpAPI/bin/Debug/net8.0
 /BhuHelpAPI/obj
+/BhuHelpAPI.Infracture/bin/Debug/net8.0
+/BhuHelpAPI.Application/obj
+/BhuHelpAPI.Application/bin/Debug/net8.0
+/BhuHelpAPI.Infracture/obj
+/BhuHelpAPI.Domain/bin/Debug/net8.0
+/BhuHelpAPI.Domain/obj
