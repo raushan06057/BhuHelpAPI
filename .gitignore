@@ -11,3 +11,5 @@
 /BhuHelpAPI.Infracture/obj
 /BhuHelpAPI.Domain/bin/Debug/net8.0
 /BhuHelpAPI.Domain/obj
+/BhuHelpAPI.Infrastructure/bin/Debug/net8.0
+/BhuHelpAPI.Infrastructure/obj

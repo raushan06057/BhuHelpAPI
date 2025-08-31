@@ -3,8 +3,8 @@
 public class AuthenticationMiddleware
 {
     private readonly RequestDelegate _next;
-    private ILogger<AuthenticationMiddleware> _logger;
-    private IConfiguration config;
+    private readonly ILogger<AuthenticationMiddleware> _logger;
+    private readonly IConfiguration config;
     public AuthenticationMiddleware(RequestDelegate next,ILogger<AuthenticationMiddleware> logger,IConfiguration config)
     {
         _next = next;

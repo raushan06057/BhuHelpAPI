@@ -9,3 +9,6 @@ global using BhuHelpAPI.Application.Queries;
 global using Microsoft.AspNetCore.Authorization;
 global using Microsoft.AspNetCore.Mvc.Filters;
 global using BhuHelpAPI.Attributes;
+global using Microsoft.OpenApi.Models;
+global using Microsoft.AspNetCore.Diagnostics;
+global using BhuHelpAPI.Handlers;

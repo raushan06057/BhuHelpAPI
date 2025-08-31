@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BhuHelpAPI", "BhuHelpAPI\Bh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BhuHelpAPI.Application", "BhuHelpAPI.Application\BhuHelpAPI.Application.csproj", "{33FF7276-2043-4139-BCA7-DF326C3A5181}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BhuHelpAPI.Infrastructure", "BhuHelpAPI.Infracture\BhuHelpAPI.Infrastructure.csproj", "{0653BEDF-8128-4EC8-BDEC-77D2C5FF8310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BhuHelpAPI.Infrastructure", "BhuHelpAPI.Infrastructure\BhuHelpAPI.Infrastructure.csproj", "{0653BEDF-8128-4EC8-BDEC-77D2C5FF8310}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BhuHelpAPI.Domain", "BhuHelpAPI.Domain\BhuHelpAPI.Domain.csproj", "{AD34C3BE-3777-4584-9CED-411A90458BCC}"
 EndProject

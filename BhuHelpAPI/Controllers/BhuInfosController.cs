@@ -37,4 +37,15 @@ public class BhuInfosController : ControllerBase
         var result = await mediator.Send(query);
         return Ok(result);
     }
+
+    [HttpGet]
+    [AuthAttribute(CommonFields.Auths, CommonFields.GetBhuInfo)]
+    //[AllowAnonymous]
+    [ProducesResponseType(typeof(ResponseModel), (int)HttpStatusCode.OK)]
+    public async Task<ActionResult> Get(int page = 0, int pageSize = 10, string search = "")
+    {
+        var query = new GetBhuInfoListQuery(search,pageSize,page);
+        var result = await mediator.Send(query);
+        return Ok(result);
+    }
 }

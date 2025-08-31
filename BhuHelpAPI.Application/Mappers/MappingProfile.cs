@@ -13,5 +13,7 @@ public class MappingProfile : Profile
         CreateMap<UpdateApplicationUserCommand, ApplicationUser>().ReverseMap();
         CreateMap<CreateBhuInfoCommand, BhuInfoEntity>().ReverseMap();
         CreateMap<UpdateBhuInfoCommand, BhuInfoEntity>().ReverseMap();
+        CreateMap<CreateGotraCommand, GotraEntity>().ReverseMap();
+        CreateMap<CreateProfessionalCommand, ProfessionalEntity>().ReverseMap();
     }
 }

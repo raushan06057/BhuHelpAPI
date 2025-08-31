@@ -17,6 +17,6 @@ public class CreateBhuInfoCommand:IRequest<ResponseModel>
     public int? Child { get; set; }
     public int? UnmarriedChild { get; set; }
 
-    public List<ChildInfoEntity> ChildInfos { get; set; }
+    //public List<ChildInfoEntity> ChildInfos { get; set; }
 
 }
